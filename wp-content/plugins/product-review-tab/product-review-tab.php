@@ -48,17 +48,21 @@ function single_product_review_new_product_tab( $tabs ) {
 
 
 
- // The new tab content
+ // The new tab content callback
 function woo_new_product_tab_content() {
     $id = get_the_ID();
+    // Get all product reviews
     $reviews = new WP_Query(array(
         "post_type" => "product_review",
         "posts_per_page" => -1,
         "meta_key" => "product_product_review",
         "meta_value" => $id
     ));
+
     $reviews_rating = [];
     $reviews_items = [];
+
+    // check if there is any reviws
     if($reviews->have_posts()):
     include_once "./styles.php";
         ?>
