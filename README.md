@@ -1,8 +1,14 @@
-# solution one
+# solution three
 ## Required Plugins
-[] Pods
 [] Woocommerce
+[] Product Review Tab
 
-# Create the post type by " Pods " plugin
+## Code & Activate Plugin " product-review-tab " 
 
-# Code & Activate Plugin " product-review-tab " 
+
+# Product Review Tab
+[-] Create Product review
+[-] Create Meta Field
+[-] Create Search & Select Product By Ajax
+[-] Add Tab to Single Product Page
+[-] Customize Rating in the Tab of Single Product Page
