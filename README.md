@@ -12,3 +12,6 @@
 [-] Create Search & Select Product By Ajax
 [-] Add Tab to Single Product Page
 [-] Customize Rating in the Tab of Single Product Page
+
+# Database
+## File name: DATABASE.sql 
