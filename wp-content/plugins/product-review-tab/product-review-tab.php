@@ -2,7 +2,7 @@
 /*
 Plugin Name: Product Review Tab
 Plugin URI: http://techshop.local
-Description: Add tab to product single tab 
+Description: Create Product Review post type, Create metabox, Add tab to product single page 
 Version: 1.0.0
 Author: Ali Alanzan
 Author URI: http://techshop.local
